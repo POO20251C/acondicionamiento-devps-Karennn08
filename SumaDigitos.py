@@ -5,8 +5,10 @@
 
 def main():
     numero = int(input("Numero al que desea sumarle los digitos: "))
-    print(numero)
-    #holi
-    
+    suma = 0
+    while numero > 0:
+        suma += numero%10
+        numero //= 10
+    print(suma)
 main()
     
