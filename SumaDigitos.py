@@ -5,6 +5,7 @@
 
 def main():
     numero = int(input("Numero al que desea sumarle los digitos: "))
+    print(numero)
     
 main()
     
